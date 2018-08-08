@@ -67,7 +67,8 @@ class ReadonlyElementsTest extends IntegrationTest {
       "Element must be user-editable in order to clear it",
       "You may only edit editable elements",
       "You may only interact with enabled elements",
-      "Element is not currently interactable and may not be manipulated");
+      "Element is not currently interactable and may not be manipulated",
+      "Element is disabled");
 
     Configuration.fastSetValue = false;
 

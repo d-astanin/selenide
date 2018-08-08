@@ -81,6 +81,7 @@ public abstract class IntegrationTest implements WithAssertions {
     Configuration.baseUrl = protocol + "127.0.0.1:" + port;
     Configuration.reportsFolder = "build/reports/tests/" + Configuration.browser;
     fastSetValue = false;
+    versatileSetValue = false;
     browserSize = "1024x768";
     server.reset();
 
